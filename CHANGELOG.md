@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.5.0 (2025-05-09)
+
+### Documentation
+
+- Add steps to the main README file
+  ([`c8ae51a`](https://github.com/caprivm/workshop-github-actions/commit/c8ae51a319056b1d1844d9343f0bdd52c4d9100f))
+
+### Features
+
+- Add a feature
+  ([`d9e10bc`](https://github.com/caprivm/workshop-github-actions/commit/d9e10bccedc7d6e58660f8a4a665e841bcd5b3df))
+
+
 ## v0.4.1 (2025-05-08)
 
 ### Bug Fixes
