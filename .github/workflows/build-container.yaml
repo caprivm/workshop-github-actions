@@ -34,3 +34,12 @@ jobs:
       - name: Workshop Initial Step
         run: |
           echo "Hello World!"
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Show the Variable
+        run: |
+          echo "PROJECT_DIR: $PROJECT_DIR"
