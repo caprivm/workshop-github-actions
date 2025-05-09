@@ -19,6 +19,7 @@ def test():
     )
 
 
+# Call the test script
 def __main__():
     """
     Run the test function.
